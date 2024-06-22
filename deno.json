@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "build": "deno run --allow-read=./templates --allow-write=./themes bin/build.ts",
+    "dev": "deno run --allow-read=./templates --allow-write=./themes --watch bin/dev.ts",
+    "check": "deno run --allow-read=./templates,./themes ./bin/check.ts"
+  },
+  "imports": {
+    "night-owl-palette": "https://raw.githubusercontent.com/alexlafroscia/night-owl-palette/v1.0.0/mod.ts"
+  }
+}
