@@ -61,13 +61,13 @@ Night Owl:
   text-accent-color: var(--text)
 
   # Sidebar
-  sidebar-background-color: var(--crust)
-  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-background-color: "#011627"
+  sidebar-selected-background-color: "#234d708c"
 
-  sidebar-icon-color: var(--subtext0)
-  sidebar-text-color: var(--subtext0)
-  sidebar-selected-icon-color: var(--mauve)
-  sidebar-selected-text-color: var(--mauve)
+  sidebar-icon-color: "#89a4bb"
+  sidebar-text-color: "#89a4bb"
+  sidebar-selected-icon-color: "#ffffff"
+  sidebar-selected-text-color: "#ffffff"
 
   # Buttons
   paper-item-icon-color: var(--subtext0)
