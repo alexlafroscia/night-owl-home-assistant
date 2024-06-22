@@ -1,7 +1,7 @@
 ####################### LATTE #######################
 Night Owl:
   # Colors
-  text: "#4c4f69"
+  text: "#d6deeb"
 
   subtext1: "#5c5f77"
   subtext0: "#6c6f85"
@@ -35,21 +35,20 @@ Night Owl:
   yellow: "#f6cd93"
   bright-yellow: "#fbeb9f"
 
-  mauve: "#8839ef" # TODO: replace
   lavender: "#7287fd" # TODO: replace
 
   ###########################
 
   # Header
-  app-header-background-color: var(--mantle)
-  app-header-text-color: var(--text)
+  app-header-background-color: "#011627"
+  app-header-text-color: "#d6deeb"
 
   # Main Interface colors
   primary-color: var(--blue)
   light-primary-color: var(--primary-color)
 
-  primary-background-color: var(--mantle)
-  secondary-background-color: var(--mantle)
+  primary-background-color: "#011627"
+  secondary-background-color: "#011627"
   accent-color: var(--yellow)
 
   # Text

@@ -1,7 +1,7 @@
 ####################### LATTE #######################
 Night Owl:
   # Colors
-  text: "#4c4f69"
+  text: "<%= it.ui.dark.foreground %>"
 
   subtext1: "#5c5f77"
   subtext0: "#6c6f85"
@@ -35,21 +35,20 @@ Night Owl:
   yellow: "<%= it.color.normal.yellow %>"
   bright-yellow: "<%= it.color.bright.yellow %>"
 
-  mauve: "#8839ef" # TODO: replace
   lavender: "#7287fd" # TODO: replace
 
   ###########################
 
   # Header
-  app-header-background-color: var(--mantle)
-  app-header-text-color: var(--text)
+  app-header-background-color: "<%= it.ui.dark.background %>"
+  app-header-text-color: "<%= it.ui.dark.foreground %>"
 
   # Main Interface colors
   primary-color: var(--blue)
   light-primary-color: var(--primary-color)
 
-  primary-background-color: var(--mantle)
-  secondary-background-color: var(--mantle)
+  primary-background-color: "<%= it.ui.dark.background %>"
+  secondary-background-color: "<%= it.ui.dark.background %>"
   accent-color: var(--yellow)
 
   # Text
