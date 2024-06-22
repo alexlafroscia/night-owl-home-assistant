@@ -1,4 +1,4 @@
-import { TEMPLATE_DIR, build, write } from "./build.ts";
+import { build, TEMPLATE_DIR, write } from "./build.ts";
 
 // Perform an initial build
 await write(await build());

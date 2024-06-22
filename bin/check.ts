@@ -1,4 +1,4 @@
-import { NIGHT_OWL_THEME, build } from "./build.ts";
+import { build, NIGHT_OWL_THEME } from "./build.ts";
 
 const onDisk = new TextDecoder().decode(await Deno.readFile(NIGHT_OWL_THEME));
 const current = await build();

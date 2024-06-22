@@ -8,7 +8,7 @@ export const THEME_DIR = path.resolve(import.meta.dirname!, "../themes");
 
 export const NIGHT_OWL_TEMPLATE = path.resolve(
   TEMPLATE_DIR,
-  "./night_owl.yaml"
+  "./night_owl.yaml",
 );
 export const NIGHT_OWL_THEME = path.resolve(THEME_DIR, "./night_owl.yaml");
 
@@ -27,7 +27,7 @@ export function write(nightOwlContent: string) {
 
   return Deno.writeFile(
     path.resolve(THEME_DIR, "night_owl.yaml"),
-    nightOwlBuffer
+    nightOwlBuffer,
   );
 }
 

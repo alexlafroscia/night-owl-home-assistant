@@ -65,7 +65,9 @@
 </details>
 
 ## Usage
+
 ### With [HACS](https://hacs.xyz/)
+
 1. Add the following code to your `configuration.yaml` file (reboot required).
 
 ```yaml
@@ -74,6 +76,7 @@ frontend:
   themes: !include_dir_merge_named themes
   ... # your configuration.
 ```
+
 2. Go to the Community Store.
 3. Search for `Catppuccin`.
 4. Navigate to `Catppuccin` theme.
@@ -81,6 +84,7 @@ frontend:
 6. Go to services and trigger the `frontend.reload_themes` service.
 
 ### Manual
+
 1. Add the following code to your `configuration.yaml` file (reboot required).
 
 ```yaml
@@ -89,17 +93,19 @@ frontend:
   themes: !include_dir_merge_named themes
   ... # your configuration.
 ```
+
 2. Clone the repository
+
 ```bash
 git clone https://github.com/catppuccin/home-assistant.git
 ```
 
-3. Copy `themes/catppuccin.yaml` in your existing (or create it) `themes/` folder.
+3. Copy `themes/catppuccin.yaml` in your existing (or create it) `themes/`
+   folder.
 
 ```bash
 mv home-assistant/themes/catppuccin.yaml ~/config/themes/.
 ```
-
 
 ## 💝 Thanks to
 
