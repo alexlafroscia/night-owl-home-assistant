@@ -4,7 +4,8 @@
     "dev": "deno run --allow-read=./templates --allow-write=./themes --watch bin/dev.ts",
     "check": "deno run --allow-read=./templates,./themes ./bin/check.ts",
 
-    "hooks:install": "deno run --allow-read=deno.json,.git/hooks/ --allow-write=.git/hooks/ jsr:@hongminhee/deno-task-hooks"
+    "hooks:install": "deno run --allow-read=deno.json,.git/hooks/ --allow-write=.git/hooks/ jsr:@hongminhee/deno-task-hooks",
+    "hooks:pre-commit": "deno task check && deno fmt --check"
   },
   "imports": {
     "night-owl-palette": "https://raw.githubusercontent.com/alexlafroscia/night-owl-palette/v1.0.0/mod.ts"
