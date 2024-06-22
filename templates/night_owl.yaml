@@ -95,7 +95,7 @@ Night Owl:
   label-badge-gray: var(--overlay0)
 
   # Cards
-  card-background-color: var(--base)
+  card-background-color: <%= it.ui.dark.tab.inactive.background %>
   ha-card-background: var(--card-background-color)
 
   ha-card-border-radius: "15px"

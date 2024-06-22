@@ -95,8 +95,7 @@ Night Owl:
   label-badge-gray: var(--overlay0)
 
   # Cards
-  card-background-color: var(--base)
-  ha-card-background: var(--card-background-color)
+  card-background-color: #01111d  ha-card-background: var(--card-background-color)
 
   ha-card-border-radius: "15px"
   ha-card-box-shadow: none
